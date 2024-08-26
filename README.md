@@ -17,7 +17,7 @@ Example: int arr[3][4]; // Declares a 2D array with 3 rows and 4 columns
                              };
 #### 2. Accessing Elements
 Elements in a 2D array are accessed using two indices: one for the row and one for the column.
-example: int value = arr[1][2]; // Accesses the element at row 1, column 2 (which is 7 in the above example)
+example: int value = arr[1][2]; // Accesses the element at row 1, column 2.
 
 ## Output 
 
