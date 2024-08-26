@@ -10,7 +10,7 @@ int main()
     cin>>a>>b;
     int arr[a][b],s=0,s1=0;
     
-    if(a==b)
+    if(a==b)//checking for the matrix is square or not 
     {
         
    cout<<"Enter the values of matrix: "<<endl;
