@@ -15,6 +15,7 @@ int main()
     cout<<"Enter number of columns of 2nd matrix: ";
     cin>>b1;
     int arr[a][b],arr1[a1][b1],sum[a][b];
+    //Input for 1st array
     cout<<"Enter elements of 1st array: "<<endl;
     for(i=0;i<a;i++)
     {
@@ -25,6 +26,7 @@ int main()
         }
         cout<<endl;
     }
+    //Input for 2nd array
     cout<<"Enter elements of 2nd array: "<<endl;
     for(i=0;i<a1;i++)
     {
@@ -35,7 +37,7 @@ int main()
         }
         cout<<endl;
     }
-     if(a==a1 & b==b1)
+     if(a==a1 & b==b1)//condition for checking the array can be added or not that is the column of 1st should be equal to the row of another
      {
         for(i=0;i<a1;i++)
     {
@@ -59,7 +61,7 @@ int main()
         cout<<"The matrix cannot be added"<<endl;
      }
       
-      if(b==a1)
+      if(b==a1)//condition that the array can be multiplied or not 
       {
         cout<<"The multiplication of matrix is: "<<endl;
         int m[a][b1];
@@ -72,6 +74,7 @@ int main()
             }
             cout<<endl;
         }
+          return 0;
       }
       else{
         cout<<"The matrix cannot be multiplied";
